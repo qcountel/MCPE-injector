@@ -1,7 +1,5 @@
 # MCPE UWP DLL Injector
 
-![Preview](mcpe_injector_preview.jpg)
-
 Инжектор динамических библиотек (DLL) для **Minecraft Windows 10 Edition (UWP) 1.1.5**, написанный на чистом Win32 C++.
 
 ## ✨ Особенности / Features
