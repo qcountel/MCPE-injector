@@ -1,0 +1,7 @@
+// app.rc — встраиваем манифест администратора в EXE-ресурс
+// windres скомпилирует это в объектный файл res.o
+
+#include <windows.h>
+
+// RT_MANIFEST с ID=1 — манифест для исполняемого файла (EXE)
+1 RT_MANIFEST "app.manifest"
