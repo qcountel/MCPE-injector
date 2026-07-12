@@ -20,11 +20,5 @@
 ./build_gui.sh
 ```
 
-Или соберите вручную через терминал:
-```bash
-# Сборка ресурсов (манифест и иконка)
-windres app.rc -o res.o
-```
-
 ## 👤 Автор / Author
 * [anx1ous](https://t.me/anx1ous)
