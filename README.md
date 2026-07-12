@@ -24,17 +24,6 @@
 ```bash
 # Сборка ресурсов (манифест и иконка)
 windres app.rc -o res.o
-
-# Компиляция исполняемого файла
-g++ -o mcpe_injector_gui.exe main.cpp res.o \
-    -std=c++17 -O2 -m64 \
-    -mwindows -municode \
-    -DUNICODE -D_UNICODE \
-    -static-libgcc \
-    -Wl,-Bstatic -lstdc++ -lpthread \
-    -Wl,-Bdynamic \
-    -lkernel32 -luser32 -lgdi32 -ladvapi32 -lcomdlg32 \
-    -ldwmapi -luxtheme -lcomctl32 -lshell32
 ```
 
 ## 👤 Автор / Author
